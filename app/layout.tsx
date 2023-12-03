@@ -25,10 +25,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Provider store={store}>
-          <Navbar />
-          {children}
-        </Provider>
+        {/* <Provider store={store}> */}
+        <Navbar />
+        {children}
+        {/* </Provider> */}
       </body>
     </html>
   );
